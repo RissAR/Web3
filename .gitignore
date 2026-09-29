@@ -1,0 +1,21 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Databases & runtime data
+postgres_data/
+n8n_data/
+
+# Node / dependencies
+node_modules/
+dist/
+build/
+.cache/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
